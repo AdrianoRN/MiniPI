@@ -16,9 +16,9 @@ namespace MiniPI.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Displicna = table.Column<string>(type: "TEXT", nullable: false),
+                    Disciplina = table.Column<string>(type: "TEXT", nullable: false),
                     Comentario = table.Column<string>(type: "TEXT", nullable: false),
-                    nota = table.Column<int>(type: "INTEGER", nullable: false)
+                    Nota = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

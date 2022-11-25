@@ -11,7 +11,7 @@ using MiniPI.Data;
 namespace MiniPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221123222801_InitialCreation")]
+    [Migration("20221125150630_InitialCreation")]
     partial class InitialCreation
     {
         /// <inheritdoc />
@@ -30,11 +30,11 @@ namespace MiniPI.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Displicna")
+                    b.Property<string>("Disciplina")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("nota")
+                    b.Property<int>("Nota")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
