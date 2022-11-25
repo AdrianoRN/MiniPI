@@ -27,11 +27,11 @@ namespace MiniPI.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Displicna")
+                    b.Property<string>("Disciplina")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("nota")
+                    b.Property<int>("Nota")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");

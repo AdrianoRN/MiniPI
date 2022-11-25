@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adria\\ambienteDesenvolvimento\\APS\\MINI_Api\\MiniPI\\MiniPI.csproj": {}
+    "C:\\Users\\adria\\Desktop\\MiniPI\\MiniPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adria\\ambienteDesenvolvimento\\APS\\MINI_Api\\MiniPI\\MiniPI.csproj": {
+    "C:\\Users\\adria\\Desktop\\MiniPI\\MiniPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\ambienteDesenvolvimento\\APS\\MINI_Api\\MiniPI\\MiniPI.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\Desktop\\MiniPI\\MiniPI.csproj",
         "projectName": "MiniPI",
-        "projectPath": "C:\\Users\\adria\\ambienteDesenvolvimento\\APS\\MINI_Api\\MiniPI\\MiniPI.csproj",
+        "projectPath": "C:\\Users\\adria\\Desktop\\MiniPI\\MiniPI.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\ambienteDesenvolvimento\\APS\\MINI_Api\\MiniPI\\obj\\",
+        "outputPath": "C:\\Users\\adria\\Desktop\\MiniPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.SqLite": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

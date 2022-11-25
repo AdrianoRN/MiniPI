@@ -15,6 +15,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqLite" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqLServer" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
 </Project>
