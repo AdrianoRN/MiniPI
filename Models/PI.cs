@@ -1,0 +1,1 @@
+public record PI(Guid Id, string Disciplina, string Comentario,int Nota);
